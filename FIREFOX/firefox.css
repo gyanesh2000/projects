@@ -1,0 +1,310 @@
+* {
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.first{
+  text-align: center;
+  margin-top: 100px;
+  
+}
+  .buton1{
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    margin: 40px;
+    box-shadow: 5px 5px 15px black;
+    font-size: 15px;
+    font-weight: bold;
+    /* position: fixed; */
+    position: sticky;
+  }
+
+.container{
+display: flex;
+justify-content: center;
+gap: 30px;
+margin: 60px;
+flex-wrap: wrap;
+/* position: sticky; */
+
+}
+
+.container .content1 .Ama{
+
+  flex-direction: column;
+
+}
+
+
+
+.content{
+
+  height: 80px;
+  width: 100px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px black;
+  margin: 10px;
+  
+}
+.content1{
+  background-image: url("./axp-photography-m6H4uZZUNm4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 70px;
+  
+  
+}
+
+
+.content2{
+  background-image: url("./axp-photography-y91yx3B9yeI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 70px;
+}
+
+.content3{
+  background-image: url("./katy-cao-1bhy8upL3cg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 50px;
+  
+
+}
+.content4{
+  background-image: url("./oleksandr-kurchev-1almvQAz2ZU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 60px;
+
+}
+
+
+.content5{
+  background-image: url("./samantha-gades-gKjLLN1T8HQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 60px;
+
+}
+
+.content6{
+  background-image: url("./axp-photography-m6H4uZZUNm4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 60px;
+
+}
+
+.content7{
+  background-image: url("./axp-photography-y91yx3B9yeI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 60px;
+  
+
+}
+.content8{
+  background-image: url("./katy-cao-1bhy8upL3cg-unsplash.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 60px;
+  
+}
+
+
+ .main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 10px 150px;
+  justify-content: center;
+  flex-direction: row;
+  /* z-index: -1; */
+  /* box-shadow: 2px 3px 10px black; */
+  
+ }
+ .cards{
+  height: 380px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  /* z-index: 10; */
+  background-color: aliceblue;
+  border: 10px solid aliceblue;
+  border-radius: 20px;
+ box-shadow: 1px 1px 10px black;
+
+ }
+ 
+ .img2{
+  background-image: url("./axp-photography-m6H4uZZUNm4-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+ .img3{
+  background-image: url("./axp-photography-y91yx3B9yeI-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+ .img4{
+  background-image: url("./katy-cao-1bhy8upL3cg-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+ .img5{
+  background-image: url("./oleksandr-kurchev-1almvQAz2ZU-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+ 
+ .img6{
+  background-image: url("./oleksandr-kurchev-vGHNWBgd0pY-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+ .img7{
+  background-image: url("./samantha-gades-gKjLLN1T8HQ-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+ 
+ .img8{
+  background-image: url("./axp-photography-m6H4uZZUNm4-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+ .img9{
+  background-image: url("./axp-photography-y91yx3B9yeI-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+
+ .img10{
+  background-image: url("./katy-cao-1bhy8upL3cg-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+width: 200px;
+
+ }
+
+.inner-container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.inner-container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.inner-container3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.inner-container4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.inner-container5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.inner-container6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.inner-container7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.inner-container8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+
+ .image{
+ height: 1500px;
+ width: 330px;
+ /* box-shadow: 1px 1px 10px black; */
+ 
+
+ }
+.des{
+  text-align: justify;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  
+}
+
+.cards:hover>.image{
+  opacity: 0.7;
+  
+}
+.cards:hover .title{
+  color: aqua;
+}
+
+button{
+  justify-content: center;
+  align-items: center;
+  
+}
